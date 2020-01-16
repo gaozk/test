@@ -1,6 +1,7 @@
 {
     "name": "gaozk/test",
     "description": "test",
+    "license": "MIT",
     "authors": [
         {
             "name" : "gaozk",
