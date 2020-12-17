@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T07:54:07.936Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="4XEWjalsd5UPQvS3-H6z" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T07:55:16.482Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="TC9mCdGviukHqqMzObu1" version="13.10.1" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -188,6 +188,11 @@
             <mxPoint x="840" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ICt9YaVv3MhZrXbYKh8g-107" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ICt9YaVv3MhZrXbYKh8g-99">
+          <mxGeometry x="-0.7629" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ICt9YaVv3MhZrXbYKh8g-52" value="是否其他硬件信息也保持一致" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="625" y="280" width="90" height="86.25" as="geometry" />
         </mxCell>
@@ -199,16 +204,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICt9YaVv3MhZrXbYKh8g-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.985;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ICt9YaVv3MhZrXbYKh8g-58" target="ICt9YaVv3MhZrXbYKh8g-15">
+        <mxCell id="ICt9YaVv3MhZrXbYKh8g-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ICt9YaVv3MhZrXbYKh8g-58" target="ICt9YaVv3MhZrXbYKh8g-103">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="457" />
-              <mxPoint x="770" y="781" />
+              <mxPoint x="775" y="457" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICt9YaVv3MhZrXbYKh8g-68" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ICt9YaVv3MhZrXbYKh8g-67">
-          <mxGeometry x="-0.7003" y="3" relative="1" as="geometry">
+        <mxCell id="ICt9YaVv3MhZrXbYKh8g-106" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ICt9YaVv3MhZrXbYKh8g-104">
+          <mxGeometry x="-0.6671" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -216,7 +220,11 @@
           <mxGeometry x="625" y="413.75" width="90" height="86.25" as="geometry" />
         </mxCell>
         <mxCell id="ICt9YaVv3MhZrXbYKh8g-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ICt9YaVv3MhZrXbYKh8g-63" target="ICt9YaVv3MhZrXbYKh8g-15">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ICt9YaVv3MhZrXbYKh8g-63" value="更新硬件信息，记录到日志" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="560.005" width="120" height="60" as="geometry" />
@@ -230,6 +238,16 @@
         </mxCell>
         <mxCell id="ICt9YaVv3MhZrXbYKh8g-101" value="绑定硬件信息，记录到日志" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="790" y="570.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICt9YaVv3MhZrXbYKh8g-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ICt9YaVv3MhZrXbYKh8g-103" target="ICt9YaVv3MhZrXbYKh8g-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICt9YaVv3MhZrXbYKh8g-103" value="绑定硬件信息，记录到日志" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="715" y="649.995" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
